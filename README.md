@@ -1,14 +1,13 @@
 PNEditor (Petri Net editor)
 ========
 
-I integrated my realization of Petri Network  in this interface using the adapter's design patterns
+I integrated  [my realization of Petri Network](https://github.com/Novmbrain/Reseau-de-Petri)  in this interface using the adapter's design patterns
 
 ## Quick Start
 
-1. Import MAPDPNEditor_FU_XIN.zip to eclipse
-2. run main function
-3. right click "Change model" and choose "fuxin"
-4. start to enjoy~~~~~~~
+1. run main function
+2. right click "Change model" and choose "fuxin"
+3. start to enjoy~~~~~~~
 
 ## Originnal README
 
