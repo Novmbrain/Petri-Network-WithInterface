@@ -1,6 +1,32 @@
 PNEditor (Petri Net editor)
 ========
 
+# 简介
+
+
+
+本项目实现Petri Network的可视化。首先我们实现了Petri Network的所有功能（https://github.com/Novmbrain/Reseau-de-Petri），并在这个项目中使用适配器设计模式将自己实现的功能（上面仓库的代码）适配到现成的交互界面里。交互界面的代码是由Joris Thaveau提供的，可以从[www.pneditor.org](http://www.pneditor.org/)下载。
+
+> Petri Network简介：https://baike.baidu.com/item/Petri%E7%BD%91/3322876
+
+## 快速开始
+
+1. 运行 main函数
+2. 右键“change model”，选择“fuxin”，这个是我们自己的代码实现
+3. 使用交互界面进行Petri Network节点，边的添加，删除等一系列操作。
+
+## 代码构成
+
+本项目中我们自己实现的代码在下面两个路径下：
+
+Petri-Network-WithInterface/src/org/pneditor/petrinet/adapters/fuxin/：适配器实现
+
+Petri-Network-WithInterface/src/org/pneditor/petrinet/models/fuxin/：Petri Network函数功能实现
+
+# Introduction
+
+
+
 I integrated  [my realization of Petri Network](https://github.com/Novmbrain/Reseau-de-Petri)  in this interface using the adapter's design patterns
 
 ## Quick Start
